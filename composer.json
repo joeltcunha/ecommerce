@@ -1,0 +1,22 @@
+{
+  "name": "fluid_analysis-tech/ecommerce",
+  "description": "curso PHP 7",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Joel T Cunha",
+      "email": "joelcunha6@gmail.com"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "v6.5.*",
+    "slim/slim": "4.9.*",
+    "rain/raintpl": "3.1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "":"vendor\\hcodebr\\php-classes\\src"
+    }
+  }
+}
